@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Nome: " + pessoa.getNome());
         System.out.println("Idade: " + pessoa.getIdade());
         System.out.println("É maior de idade? " + (pessoa.isMaiorDeIdade() ? "Sim" : "Não"));
-    
+        
         Pessoa pessoa2 = new Pessoa("João", 20);
         System.out.println("Nome: " + pessoa2.getNome());
         System.out.println("Idade: " + pessoa2.getIdade());
